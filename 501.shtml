@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en-US">    
+<head>        
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+	<meta name="author" content="Michael Otieno">
+	<title>501 Not Implemented</title>
+	<style type="text/css">
+	html{height:100%}body{color:#444;background-color:#fff;font-size:1rem;font-weight:400;line-height:1.5;font-family:Arial,Helvetica,sans-serif;margin:0;height:100%;overflow-x:hidden}main{display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;justify-content:center;align-items:center;height:auto;min-height:100%}div{text-align:center;margin-left:auto;margin-right:auto;padding-left:15px;padding-right:15px;width:100%}h1{font-size:9.375rem;line-height:9.375rem;font-weight:700;margin-top:0;margin-bottom:0.5rem}h2{font-size:1.875rem;margin-top:0;margin-bottom:0.5rem}p{margin-top:0;margin-bottom:1rem}a{color:#007bff;text-decoration:none;background-color:transparent}a:hover{color:#0056b3;text-decoration:underline}footer{position:relative;text-align:center;background-color:#242424;font-size:0.9rem;padding:1rem}footer span{color:#f8f9fa} footer small{color:#6c757d}@media(min-width:576px){div{max-width:540px}}@media(min-width:768px){div{max-width:720px}}@media(min-width:992px){div{max-width:960px}}@media (min-width:1200px){main{min-height:calc(100vh - 125px)}div{max-width:1140px}footer{position:fixed;left:0;right:0;bottom:0}}@media(max-width:576px){h1{font-size:6rem;font-weight:300;line-height:1.2}h2{font-size:1.25rem}p{font-size:0.8rem}}
+	</style>
+</head>
+<body>
+	<main>     
+		<div>
+			<h1>501</h1>
+			<h2>Not Implemented</h2>
+			<p>The server does not support the action requested by the browser.</p>
+		</div>
+	</main>
+	<footer>
+		<p>
+			<span>Error Page by <a href="http://www.mikeotizels.orgfree.com?src=http-errorpage-501&ref=footer-signature" target="_blank">Mikeotizels</a></span>
+		</p>
+		<p>
+			<small>If you believe you are getting this error message by mistake, please contact the <a href="mailto:<!--#echo encoding="url" var="SERVER_ADMIN" -->?subject=HTTP%20Error%20<!--#echo encoding="none" var="REDIRECT_STATUS" -->%20at%20<!--#echo encoding="none" var="SERVER_NAME" -->&body=Hello,%20I%20was%20requesting%20a%20resource%20at%20<!--#echo encoding="none" var="SERVER_NAME" -->%20and%20I%20ended%20up%20in%20an%20error%20<!--#echo encoding="none" var="REDIRECT_STATUS" -->%20page.%20Here%20are%20the%20request%20details:%20[REQUEST_SCHEME:%20<!--#echo encoding="none" var="REQUEST_SCHEME" -->,%20HTTP_HOST:%20<!--#echo encoding="none" var="HTTP_HOST" -->,%20SERVER_PORT:%20<!--#echo encoding="none" var="SERVER_PORT" -->,%20REQUEST_URI:%20<!--#echo encoding="none" var="REQUEST_URI" -->,%20REQUEST_METHOD:%20<!--#echo encoding="none" var="REQUEST_METHOD" -->,%20REMOTE_ADDR:%20<!--#echo encoding="none" var="REMOTE_ADDR" -->]%20Please%20check%20and%20fix%20the%20problem." target="_blank" rel="noopener noreferrer">server admin</a>.</small>
+		</p>
+	</footer>
+</body>
+</html>

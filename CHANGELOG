@@ -1,0 +1,19 @@
+Mikeotizels HTTP Error Pages - ChangeLog
+========================================
+
+2.0.0 (2022-05-10)
+------------------
+
+- Added more error documents for other standard 4xx and 5xx response codes as 
+  defined by RFC 9110: 402, 406, 407, 409, 416, 417, 422, 423, 424, 504, 505, 
+  507, and 510.
+- Modified some error description messages to make them more informative.
+- Updated the HTML markup for the error documents from HTML 4 to HTML 5.
+- Added custom inline CSS code and changed the overall error page layout.
+- Added a footer section with author signature and mail link with the server 
+  admin email address where the visitor may report the error encountered.
+
+1.0.0 (2021-01-15)
+------------------
+
+- Initial release
