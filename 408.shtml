@@ -1,0 +1,20 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-language" content="en-US" />
+    <meta http-equiv="Content-type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="Michael Otieno" />
+	<title>408 Request Timeout</title>
+</head>
+<body>
+	<main align="center">
+		<br />
+		<h2>Request Timeout</h2>
+		<p>The server closed the connection because the browser didn't finish the request in time.</p>
+		<hr size="2" />
+        <small><font face="courier new">ERROR 408</font></small>
+		<br />
+	</main>
+</body>
+</html>

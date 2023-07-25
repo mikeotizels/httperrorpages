@@ -1,0 +1,20 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-language" content="en-US" />
+    <meta http-equiv="Content-type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="Michael Otieno" />
+	<title>413 Request Entity Too Large</title>
+</head>
+<body>
+	<main align="center">
+		<br />
+		<h2>Request Entity Too Large</h2>
+		<p>The <!--#echo encoding="none" var="REDIRECT_REQUEST_METHOD" --> method does not allow the data transmitted, or the data volume exceeds the capacity limit.</p>
+		<hr size="2" />
+        <small><font face="courier new">ERROR 413</font></small>
+		<br />
+	</main>
+</body>
+</html>
