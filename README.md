@@ -25,8 +25,8 @@ documents based on the values of these variables.
 
 # Branches
 
-  - [v1.0.0](https://github.com/mikeotizels/httperrorpages/tree/1.0.0)
   - [v2.0.0](https://github.com/mikeotizels/httperrorpages/tree/2.0.0)
+  - [v1.0.0](https://github.com/mikeotizels/httperrorpages/tree/1.0.0)
 
 -------------------------------------------------------------------------------
 
