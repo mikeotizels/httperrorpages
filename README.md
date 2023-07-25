@@ -1,7 +1,7 @@
 Mikeotizels HTTP Error Pages 
 ============================
 
-Version: 2.0.0 - 2022
+Version 2.0.0 - 2022
 
 This package contains customized error documents that can be used in palace of 
 the basic HTTP error messages that the web server automatically outputs in the
@@ -83,23 +83,27 @@ in a location of your choice.
 
 For the web server to output the contents of the .shtml error page files, the
 server web must be configured to handle .shtml files as "text/html" file types, 
-process their content before sending to the client, and parse them for Server
+process their content before sending it to the client, and parse them for Server
 Side Includes (SSI). Please check that the following directives are included 
 and enabled in your main server configuration:
 
 - For text/html MIME type:
 
-  `AddType text/html .shtml`
-
+```httpd.conf
+  AddType text/html .shtml
+```
 - For server-parsed files:
 
-  `AddHandler server-parsed .shtml`
-
+```httpd.conf
+  AddHandler server-parsed .shtml
+```
 - To parse .shtml files for server-side includes (SSI):
   ("Includes" also needs to be added to the "Options" directive for per-user 
   web directories or per-VirtualHost configurations.)
 
-  `AddOutputFilter Includes .shtml`
+```httpd.conf
+  AddOutputFilter Includes .shtml
+```
 
 ## Host Configuration
 
