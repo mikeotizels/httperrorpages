@@ -111,39 +111,25 @@ that is relative to the site's DocumentRoot, you may also need to specify an
 ErrorDocument directive that points to the error file's location in the host's 
 VirtualHost container or the site's .htaccess file. For example:
 
- `ErrorDocument 400 /400.shtml`
- 
- `ErrorDocument 401 /401.shtml`
- 
- `ErrorDocument 403 /403.shtml`
- 
- `ErrorDocument 404 /404.shtml`
- 
- `ErrorDocument 405 /405.shtml`
- 
- `ErrorDocument 408 /408.shtml`
- 
- `ErrorDocument 410 /410.shtml`
- 
- `ErrorDocument 411 /411.shtml`
- 
- `ErrorDocument 412 /412.shtml`
- 
- `ErrorDocument 413 /413.shtml`
- 
- `ErrorDocument 414 /414.shtml`
- 
- `ErrorDocument 415 /415.shtml`
- 
- `ErrorDocument 500 /500.shtml`
- 
- `ErrorDocument 501 /501.shtml`
- 
- `ErrorDocument 502 /502.shtml`
- 
- `ErrorDocument 503 /503.shtml`
- 
- `ErrorDocument 506 /506.shtml`
+```
+ ErrorDocument 400 /400.shtml
+ ErrorDocument 401 /401.shtml
+ ErrorDocument 403 /403.shtml
+ ErrorDocument 404 /404.shtml
+ ErrorDocument 405 /405.shtml
+ ErrorDocument 408 /408.shtml
+ ErrorDocument 410 /410.shtml
+ ErrorDocument 411 /411.shtml
+ ErrorDocument 412 /412.shtml
+ ErrorDocument 413 /413.shtml
+ ErrorDocument 414 /414.shtml
+ ErrorDocument 415 /415.shtml
+ ErrorDocument 500 /500.shtml
+ ErrorDocument 501 /501.shtml
+ ErrorDocument 502 /502.shtml
+ ErrorDocument 503 /503.shtml
+ ErrorDocument 506 /506.shtml
+```
 
 Also note that sometimes, the personalized error page may not appear. But in 
 many cases, it might be fixed by making the page file size over 1024 bytes. 
