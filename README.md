@@ -55,7 +55,7 @@ document root.
 ## Server Configuration
 
 For the web server to output the contents of the .shtml error page files, the
-server web must be configured to handle .shtml files as "text/html" file types, 
+web server must be configured to handle .shtml files as "text/html" file types, 
 process their content before sending to the client, and parse them for Server
 Side Includes (SSI). Please check that the following directives are included 
 and enabled in your main server configuration:
